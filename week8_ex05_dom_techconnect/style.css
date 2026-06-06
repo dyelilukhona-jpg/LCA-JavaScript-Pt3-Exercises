@@ -1,0 +1,75 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 3px solid #198754;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+}
+
+header p {
+  color: #adb5bd;
+}
+
+/* Cards */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #198754;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.75rem;
+  padding: 5px 8px;
+  border-radius: 20px;
+}
+
+/* Search bar */
+#searchInput {
+  border-radius: 20px;
+  border: 2px solid #198754;
+}
+
+#searchInput:focus {
+  box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.25);
+  border-color: #198754;
+}
+
+/* Form */
+.form-control {
+  border-radius: 8px;
+}
+
+/* Table */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Hire button */
+.hire-btn {
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
